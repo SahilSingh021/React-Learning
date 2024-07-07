@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300.5
   },
   "right": {
     "id": "0e4dcc6637120ba9",
@@ -148,8 +148,8 @@
   },
   "active": "cd60d404d7efa637",
   "lastOpenFiles": [
-    "03 - Building Components.md",
     "01 - Welcome.md",
+    "03 - Building Components.md",
     "02 - Getting Started with React.md",
     "Untitled.canvas",
     "Untitled 1.canvas",

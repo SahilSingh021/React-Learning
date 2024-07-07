@@ -12,4 +12,4 @@
 
 - TypeScript (I will be learning this along with React).
 
-# Progression -> 03, v4
+# Progression -> 03, v10

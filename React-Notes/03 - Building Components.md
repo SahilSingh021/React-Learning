@@ -49,3 +49,29 @@ If the first condition is true then the second condition will be returned else i
 ```
 
 Each time this component is called it will have it's own unique useState and will not conflict with other instances of the same component.
+
+- Now I have been taught about Props and how we can pass data through them for functionalities sake. Below is an example of how to define a Prop and how it can be used:
+
+```tsx
+	// Prop Defined
+	interface Props {
+	  items: string[];
+	  heading: string;
+	}
+
+	// Passing the prop to a component
+	function ListGroup({ items, heading }: Props) {}
+
+	// Passing the data to the Prop
+	function App() {
+	  let items = ["America", "United Kingdom", "India", "Canada", "France"];
+	  
+		  return (
+		    <div>
+			    <ListGroup items={items} heading="Cities" />
+			</div>
+		);
+	}
+```
+
+- I have now used the Prop to pass data from the child component to the parent. This way we can add unique functionality to each component.
